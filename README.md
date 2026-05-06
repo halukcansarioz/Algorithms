@@ -1,38 +1,88 @@
-# Algorithms & Data Structures
+# 🚀 Data Structures (Veri Yapıları)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
-[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)](#)
+[![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)](#)
 
-Bu depo, temel **Veri Yapıları (Data Structures)** ve **Algoritmalar (Algorithms)** üzerine yaptığım çalışmaları, kodlamaları ve çeşitli platformlardaki (LeetCode, HackerRank vb.) problem çözümlerimi içermektedir. 
+Bu depo, bilgisayar bilimlerindeki temel veri yapılarının (Data Structures) çalışma mantığını, uygulamalarını ve **C programlama dili** kullanılarak yazılmış optimize edilmiş kod örneklerini içermektedir.
 
-## 🎯 Proje Hakkında
+## 📚 İçindekiler
+- [Proje Hakkında](#proje-hakkında)
+- [Veri Yapıları Listesi](#veri-yapıları-listesi)
+- [Geliştirme Süreci](#geliştirme-süreci)
+- [Kurulum ve Kullanım](#kurulum-ve-kullanım)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
 
-Algoritma mantığını kavramak, kodun zaman ve alan karmaşıklığını (Time & Space Complexity - Big O Notation) optimize etmek ve problem çözme yeteneklerimi geliştirmek amacıyla oluşturduğum kişisel bir çalışma alanıdır. 
+---
 
-Proje temel olarak şu konuları kapsar:
-1. **Veri Yapıları:** Diziler (Arrays), Bağlı Listeler (Linked Lists), Yığınlar (Stacks), Kuyruklar (Queues), Ağaçlar (Trees) ve Graflar (Graphs).
-2. **Temel Algoritmalar:** Arama (Searching), Sıralama (Sorting) ve Graf algoritmaları.
-3. **Gelişmiş Yaklaşımlar:** Dinamik Programlama (Dynamic Programming), Böl ve Yönet (Divide and Conquer), Açgözlü Yaklaşım (Greedy).
+## 💻 Proje Hakkında
+Verilerin bellekte nasıl tutulduğunu, organize edildiğini ve yönetildiğini anlamak, verimli kod yazmanın temelidir. Bu proje, çeşitli veri yapılarının C dili ile implementasyonlarını ve örnek kullanımlarını bir araya getirmeyi amaçlamaktadır.
 
-## 📂 İçerik ve Klasör Yapısı
+## 🗂 Veri Yapıları Listesi
+Bu depoda bulabileceğiniz temel veri yapıları şunlardır:
+* **Arrays (Diziler)**
+* **Linked Lists (Bağlı Listeler)** (Singly, Doubly, Circular)
+* **Stacks (Yığınlar)**
+* **Queues (Kuyruklar)**
+* **Trees (Ağaçlar)** (Binary Tree, Binary Search Tree vb.)
+* **Graphs (Graflar)**
+* **Hash Tables (Karma Tablolar)**
 
-Depo içerisindeki konular genel olarak aşağıdaki gibi kategorize edilmiştir:
+---
 
-* **`Data-Structures/`**: Temel veri yapılarının sıfırdan implementasyonları.
-* **`Sorting-Algorithms/`**: Bubble Sort, Merge Sort, Quick Sort, Insertion Sort vb.
-* **`Searching-Algorithms/`**: Linear Search, Binary Search.
-* **`Graph-Algorithms/`**: 
-  * [DFS (Depth-First Search)](https://www.programiz.com/dsa/graph-dfs) - Programiz referans alınarak eklenmiştir.
-  * [BFS (Breadth-First Search)](https://www.programiz.com/dsa/graph-bfs) - Programiz referans alınarak eklenmiştir.
-* **`Dynamic-Programming/`**: Alt problemlere bölerek çözülen optimizasyon problemleri.
-* **`Solutions/`**: Algoritma pratik platformlarından çözülmüş örnek sorular.
+## 🛠 Geliştirme Süreci
 
-## 🚀 Kullanım
+Projeye yeni bir veri yapısı eklerken veya mevcut kodları güncellerken aşağıdaki adımları takip edebilirsiniz:
 
-Projeyi yerel bilgisayarınıza klonlamak ve kodları incelemek için:
+### 1. Forklama
+Öncelikle depoyu kendi GitHub hesabınıza fork'layın.
 
-1. **Repoyu klonlayın:**
-   ```bash
-   git clone https://github.com/halukcansarioz/Algorithms.git
-   cd Algorithms
+### 2. Yeni Dal (Branch) Oluşturma
+Her yeni özellik veya düzeltme için yeni bir dal oluşturmak düzeni korur. Terminalde şu komutu kullanın:
+```bash
+git checkout -b ozellik/yeni-veri-yapisi
+```
+
+### 3. Kodları Gönderme (Push)
+Değişikliklerinizi yaptıktan ve commit'ledikten sonra, hazırladığınız dalı GitHub'a göndermek için:
+```bash
+git push origin ozellik/yeni-veri-yapisi
+```
+
+---
+
+## 🚀 Kurulum ve Kullanım
+
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1. Depoyu klonlayın:
+```bash
+git clone [https://github.com/halukcansarioz/Data-Structures.git](https://github.com/halukcansarioz/Data-Structures.git)
+```
+
+2. Proje dizinine gidin:
+```bash
+cd Data-Structures
+```
+
+3. İncelemek istediğiniz veri yapısının klasörüne girip `.c` uzantılı dosyaları C derleyiciniz (örneğin GCC) ile derleyip çalıştırabilirsiniz.
+```bash
+gcc ornek_dosya.c -o ornek_program
+./ornek_program
+```
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Projeye katkı sağlamaktan çekinmeyin!
+1. Bu depoyu Fork'layın.
+2. **Branch oluşturun** (`git checkout -b feature/bagli-liste`).
+3. Değişikliklerinizi yapın ve commit edin.
+4. **Kodlarınızı Push'layın** (`git push origin feature/bagli-liste`).
+5. Bir Pull Request açın.
+
+---
+
+## 📜 Lisans
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Dilediğiniz gibi kullanabilir ve geliştirebilirsiniz.
