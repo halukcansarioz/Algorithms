@@ -57,7 +57,7 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
 
 1. Depoyu klonlayın:
 ```bash
-git clone [https://github.com/halukcansarioz/Data-Structures.git](https://github.com/halukcansarioz/Data-Structures.git)
+git clone https://github.com/halukcansarioz/Data-Structures.git
 ```
 
 2. Proje dizinine gidin:
